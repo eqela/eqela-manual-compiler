@@ -1,0 +1,61 @@
+body {
+	margin: 16px;
+	font-family: serif;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+h1 {
+	font-family: sans;
+	font-size: 30px;
+	font-weight: bold;
+	color: #CC8000;
+	text-shadow: 1px 1px black;
+	border-bottom: 1px solid black;
+}
+
+h2 {
+	font-family: sans;
+	font-size: 25px;
+	font-weight: 1000;
+	color: #007777;
+}
+
+h3 {
+	font-family: sans;
+	font-size: 22px;
+	font-weight: 200;
+	color: black;
+	text-decoration: underline;
+}
+
+a.linkparagraph {
+	display: block;
+	border: 1px solid black;
+	padding: 8px;
+	border-radius: 8px;
+	text-decoration: none;
+	color: #CC8000;
+	background-color: #EFEFEF;
+}
+
+a.linkparagraph:hover {
+	text-decoration: underline;
+	background-color: #DDDDDD;
+}
+
+a.linkparagraph + a.linkparagraph {
+	margin-top: 8px;
+}
+
+div.code {
+	border: 1px solid black;
+	border-radius: 8px;
+	padding: 12px;
+}
+
+pre {
+	margin: 0px;
+	display: block;
+	font-size: 14px;
+}
